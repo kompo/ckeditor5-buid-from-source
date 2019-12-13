@@ -13,6 +13,8 @@ import ImageStylePlugin from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbarPlugin from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUploadPlugin from '@ckeditor/ckeditor5-image/src/imageupload';
 
+import FontPlugin from '@ckeditor/ckeditor5-font/src/font';
+
 import LinkPlugin from '@ckeditor/ckeditor5-link/src/link';
 import ListPlugin from '@ckeditor/ckeditor5-list/src/list';
 import ParagraphPlugin from '@ckeditor/ckeditor5-paragraph/src/paragraph';
@@ -41,6 +43,9 @@ ClassicEditor.builtinPlugins = [
     ImageStylePlugin,
     ImageToolbarPlugin,
     ImageUploadPlugin,
+
+    FontPlugin,
+
     LinkPlugin,
     ListPlugin,
     ParagraphPlugin,

@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build-from-source",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The classic editor build of CKEditor 5 with added plugins, underline, alignment, tables.",
   "keywords": [
     "ckeditor5-build",
@@ -45,6 +45,7 @@
     "@ckeditor/ckeditor5-easy-image": "^15.0.0",
     "@ckeditor/ckeditor5-editor-classic": "^15.0.0",
     "@ckeditor/ckeditor5-essentials": "^15.0.0",
+    "@ckeditor/ckeditor5-font": "^15.0.0",
     "@ckeditor/ckeditor5-heading": "^15.0.0",
     "@ckeditor/ckeditor5-image": "^15.0.0",
     "@ckeditor/ckeditor5-link": "^15.0.0",
@@ -53,14 +54,14 @@
     "@ckeditor/ckeditor5-paste-from-office": "^15.0.0",
     "@ckeditor/ckeditor5-table": "^15.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^15.0.0",
-    "@ckeditor/ckeditor5-vue": "^1.0.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^3.1.0",
     "style-loader": "^1.0.1",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^4.41.2"
   },
   "devDependencies": {
-    "terser-webpack-plugin": "^2.2.1"
+    "terser-webpack-plugin": "^2.2.3",
+    "webpack-cli": "^3.3.10"
   }
 }
